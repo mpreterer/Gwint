@@ -1,11 +1,7 @@
 $( document ).ready(function() {
-	if ($('select').val() !== 'none') {
-		$('#continue').removeAttr('disabled');
-	} else {
-		$('#continue').attr('disabled','disabled');
-	}
+	$('#continue').attr('disabled','disabled');
 
-	$('#color1 > option').click(function () {
+	$('#color1').on('change', function () {
 		if ($('#color1').val() !== 'none' && $('#color2').val() !== 'none') {
 			$('#continue').removeAttr('disabled');
 		} else {
@@ -35,7 +31,7 @@ $( document ).ready(function() {
 		}
 	})
 
-	$('#color2 > option').click(function () {
+	$('#color2').on('change', function () {
 		if ($('#color1').val() !== 'none' && $('#color2').val() !== 'none') {
 			$('#continue').removeAttr('disabled');
 		} else {

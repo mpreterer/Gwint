@@ -64,6 +64,7 @@ button:active {
 .users-name {
 	margin-top: 160px;
 	margin-bottom: 10px;
+	font-size: 18px;
 }
 
 input[type="number"]::-webkit-outer-spin-button,

@@ -26,14 +26,23 @@
 }
 
 #continue {
-	width: 100px;
+	width: 150px;
+	height: 50px;
 	margin: 0 auto;
 	padding: 5px;
-	transform: translateY(-17px);
+	transform: translateY(-27px);
 	z-index: 99;
 }
 
 hr {
 	width: 99.9%;
 	margin: 0;
+}
+
+select {
+	padding: 10px;
+}
+
+select option {
+	transform: rotate(180deg);
 }
