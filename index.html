@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/player.css">
+	<title>Counter Gwint</title>
+</head>
+<body>
+	<div class="container-player">
+		<div class="slt-player__player1 slt-players">
+			<div class="slt-player-block">
+				<h2>Выберите игрока 1</h2>
+				<select name="color-player" id="color1">
+					<option value="none" selected>Выбрать фракцию</option>
+					<option value="blue">Королевство севера</option>
+					<option value="gold">Нильфгард</option>
+					<option value="red">Чудовища</option>
+					<option value="green">Скоя'таэли</option>
+				</select>
+			</div>
+		</div>
+		<hr>
+		<div class="slt-player__player2 slt-players">
+			<input type="submit" id="continue" value="Продолжить" disabled></input>
+			<div class="slt-player-block">
+			 	<h2>Выберите игрока 2</h2>
+				<select name="color-player" id="color2">
+					<option value="none" selected>Выбрать фракцию</option>
+					<option value="blue">Королевство севера</option>
+					<option value="gold">Нильфгард</option>
+					<option value="red">Чудовища</option>
+					<option value="green">Скоя'таэли</option>
+				</select>
+			</div>
+		</div>
+	</div>
+	<div class="users">
+		<div class="users__user1 users__bg1 players">
+			<div class="users__name1 users-name">Игрок 1</div>
+			<div class="users__btn-block">
+				<button class="users__minus1 users__minus">-</button>
+				<input type="number" class="users__counter-inp" id="inp1" maxlength="3" size="6">
+				<button class="users__plus1 users__plus">+</button>
+			</div>
+		</div>
+		<hr>
+		<div class="users__user2 users__bg2 players">
+			<div class="users__name2 users-name">Игрок 2</div>
+			<div class="users__btn-block">
+				<button class="users__minus2 users__minus">-</button>
+				<input type="number" class="users__counter-inp" id="inp2" maxlength="3" size="6">
+				<button class="users__plus2 users__plus">+</button>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-min.js"></script>
+	<script src="js/counter.js"></script>
+	<script src="js/select.js"></script>
+	<script src="js/continue.js"></script>
+</body>
+</html>

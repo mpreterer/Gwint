@@ -1,0 +1,39 @@
+.slt-players {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.slt-player-block {
+	margin-top: 150px;
+}
+
+.container-player {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	width: 100%;
+}
+
+.slt-player__player1 {
+	text-align: center;
+	flex: 1 0 auto;
+	transform: rotate(180deg);
+}
+
+.slt-player__player2 {
+	text-align: center;
+	flex: 1 1 auto;
+}
+
+#continue {
+	width: 100px;
+	margin: 0 auto;
+	padding: 5px;
+	transform: translateY(-17px);
+	z-index: 99;
+}
+
+hr {
+	width: 99.9%;
+	margin: 0;
+}
