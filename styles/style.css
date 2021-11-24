@@ -75,3 +75,16 @@ input[type="number"]:focus {
 input {
 	width: 50px;
 }
+
+#author {
+	margin: 0 auto;
+	text-align: center;
+	color: grey;
+}
+
+@media all and (max-width: 850px) {
+	.users button {
+		width: 70px;
+		height: 70px;
+	}
+}
